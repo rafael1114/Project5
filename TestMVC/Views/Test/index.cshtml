@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+
+<h2>index</h2>
+<div ng-app="myapp" ng-controller="TestCntrl" >
+    <form>
+        <label>Name</label><input type="text" ng-model="name" />
+        <label>status</label><input type="text" ng-model="status" required />
+        <input type="button" value="search" ng-click="GetPersonsListByStatus()" />
+        <table class="tbl-test">
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+            </tr>
+            <tr ng-repeat="p in personsList">
+                <td>{{p.ID}}</td>
+                <td>{{p.Name}}</td>
+            </tr>
+        </table>
+        {{name}}
+        {{personsList}}
+    </form>
+</div>
+<script>
+    var app = angular.module("myapp", []);
+    app.controller("TestCntrl", function ($scope, $http) {        
+
+        $scope.iniTest = function () {
+            $scope.name = "aaaaaaa";
+            $scope.GetPersonsList();
+        }
+
+        $scope.GetPersonsListByStatus = function () {
+            $http.get("/Test/PersonsByStatus?status="+$scope.status)
+                .then(function (response) {
+                    $scope.personsList = response.data;
+                });
+        }
+        $scope.GetPersonsList = function () {
+            $http.get("/Test/PersonsList")
+                .then(function (response) {
+                    $scope.personsList = response.data;
+                });
+        }
+
+        $scope.iniTest();
+    });
+</script>

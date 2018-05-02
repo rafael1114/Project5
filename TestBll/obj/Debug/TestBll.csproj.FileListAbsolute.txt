@@ -1,0 +1,15 @@
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\TestBll.dll
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\TestBll.pdb
+F:\tmp\Test1\WebApplication2\TestBll\obj\Debug\TestBll.csprojResolveAssemblyReference.cache
+F:\tmp\Test1\WebApplication2\TestBll\obj\Debug\TestBll.csproj.CoreCompileInputs.cache
+F:\tmp\Test1\WebApplication2\TestBll\obj\Debug\TestBll.dll
+F:\tmp\Test1\WebApplication2\TestBll\obj\Debug\TestBll.pdb
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\TestDAL.dll
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\TestEntities.dll
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\TestDAL.pdb
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\TestEntities.pdb
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\TestDALEF.dll
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\EntityFramework.dll
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\TestDALEF.pdb
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\TestDALEF.dll.config
+F:\tmp\Test1\WebApplication2\TestBll\bin\Debug\EntityFramework.xml
